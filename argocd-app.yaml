@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/aaronnbrock/3-tier-counter-infra.git        #if you are using same gitrepo then ArgoCD Rollout must be installed!
+    repoURL: https://github.com/aaronnbrock/3-tier-counter-infra.git
     targetRevision: HEAD
     path: deployment/
     directory:
