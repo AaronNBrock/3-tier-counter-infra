@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/sada-aaron-brock/3-tier-counter-frontend:0412cc2
+        image: gcr.io/sada-aaron-brock/3-tier-counter-frontend:548731c
         env:
         - name: API_ENDPOINT
           value: 34.120.103.135:80
