@@ -24,7 +24,7 @@ spec:
       serviceAccountName: three-tier-counter-backend
       containers:
       - name: backend
-        image: gcr.io/sada-aaron-brock/3-tier-counter-backend:d814285
+        image: gcr.io/sada-aaron-brock/3-tier-counter-backend:f6e44f4
         env:
         - name: DB_USERNAME
           valueFrom:
